@@ -157,7 +157,6 @@
     .product_warning_box {
         width: 477px;
         margin: 0 auto;
-
     }
     .ticket_img {
         display: none;
@@ -212,4 +211,13 @@
         display: none;
     }
 
+}
+
+@media screen and (max-width:500px){
+    .product_warning_box {
+        width: 100%;
+    }
+    .ticket_img_app{
+        width: 100%;
+    }
 }
